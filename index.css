@@ -6,13 +6,18 @@
     padding: 5px 5px 5px 90px;
 }
 
-
 #xyz {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white; /* Set background color */
     padding: 10px 10px 7px 10px; /* Add some padding for better spacing */
+}
+.fa-user {
+    color: #2B7BFF;
+}
+.fa-solid, .fas {
+    font-weight: 900;
 }
 
 .logo a img{
@@ -57,7 +62,7 @@ a :hover{
     color: #387ed1;
     text-decoration: none;
     font-weight: 800;
-    padding:0px 2px 0px 0px; 
+    padding: 0px 2px 0px 0px; 
 }
 main{
     display: flex;
@@ -143,9 +148,10 @@ main{
 .lol img{
     height:170px;
     width:170px;
-    padding:70px 100px 40px 120px;
-    margin:0;
+    margin:70px 100px 40px 120px;
+    padding:0;
 }
+
 .h4{
     color:white;
     font-size: 1.7em;
@@ -677,4 +683,39 @@ ul {
     float: right;
     justify-content: flex-end;
     padding-left: 50px;
+}
+@keyframes up{
+    0%{
+        opacity:0;
+        transform: translateY(80%);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+@keyframes up2{
+    0%{
+        opacity:0;
+        transform: translateY(80%);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+
+@keyframes up3{
+    0%{
+        opacity:0;
+        transform: translateY(80%);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
+.heading{
+    animation: up3 2s ease-in-out 0s 1 normal;
 }
